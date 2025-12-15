@@ -1,47 +1,36 @@
 
-a:link, a:visited {
-  background-color: #2f00ff;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-a:hover, a:active {
-  background-color: #4204fd;
-}
-body {
-    background-color :#FFFF
-    font-style arial
-    color #666666
+ body {
+    background-color :#FFFFFF;
+    font-family: arial;
+    color: #666666;
 }
 
-header {
+ header {
     background-color :#003058;
     color :#FFFFFF;
     font :georgia;
 }
-h1 p {
+ h1 p {
     line-height:140%;
 }
-nav{
+ nav{
     font-weight:200;
     background-color:#F3f3f3
 }
-h2 {
+ h2 {
     color:#424242;
     font:Georgia;
 }
-dt {
+ dt {
     color:#003058;
 }
-.ut {
+ .ut {
     color:#BA1C21;
 }
-footer{
+ footer{
     font-size:.70rem;
     font:italic;
 }
-#wrapper{
+ #wrapper{
     font-size:80%;
 }
