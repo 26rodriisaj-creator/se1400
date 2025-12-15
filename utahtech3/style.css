@@ -1,0 +1,52 @@
+
+ body {
+    background-color :#FFFFFF;
+    background-attachment:fixed;
+    font-family : arial;
+    color : #666666;
+}
+
+ header {
+    background-color :#003058;
+    color :#FFFFFF;
+    font :georgia;
+}
+ h1 p {
+    line-height:140%;
+    background-image url=https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/3101.png&scale=crop&cquality=40&location=origin&w=80&h=80/>
+    background-position: right;
+    height :1em;
+ }
+ nav{
+    font-weight:200;
+    background-color:#F3f3f3
+}
+ h2 {
+    color:#424242;
+    font:Georgia;
+}
+h3{
+    color:#003058;
+}
+ dt {
+    color:#003058;
+}
+ .ut {
+    color:#BA1C21;
+}
+ footer{
+    font-size:.70rem;
+    font:italic;
+}
+ #wrapper{
+    font-size:80%;
+}
+#homehero{
+    height: 300px;
+}
+#studenthero{
+
+}
+#facultyhero.jpg{
+
+}
