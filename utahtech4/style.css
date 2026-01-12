@@ -1,0 +1,72 @@
+ body {
+    background-color :#FFFFFF;
+    background-attachment:fixed;
+    font-family : arial;
+    color : #666666;
+}
+
+ header {
+    background-color :#003058;
+    color :#FFFFFF;
+    font :georgia;
+}
+ nav{
+    font-weight:200;
+    background-color:#F3f3f3
+}
+ h2 {
+    color:#424242;
+    font:Georgia;
+}
+h3{
+    color:#003058;
+}
+ dt {
+    color:#003058;
+}
+ .ut {
+    color:#BA1C21;
+}
+ footer{
+    font-size:.70rem;
+    font:italic;
+}
+ #wrapper{
+    font-size:80%;
+}
+#homehero{
+    height: 300px;
+}
+#studenthero{
+
+}
+#facultyhero.jpg{
+
+}
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+    color :black;
+    background-color :transparent;
+    text-decoration :none;
+}
+a:hover {
+  color: gray;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: whitesmoke;
+  background-color: transparent;
+  text-decoration: underline;
+}
+#picture1 {
+  background-image :url(//encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAJQVuOZ-yl9T0Ug0PMGfHrxhcxh84P7FaiA&s);
+  background-repeat :no-repeat;
+  background-attachment :fixed;
+  background-position :top;
+  background-size :auto;
+}
