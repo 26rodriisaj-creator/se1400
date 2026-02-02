@@ -1,4 +1,62 @@
-collums {
+#collums {
     minmax:1px;
     repeat:6;
+}
+#link1 {
+position:left;
+color:blue;
+background-color:aqua;
+}
+#link2 {
+font-size: larger;
+position:middle;
+color:blue;
+background-color: aqua;
+}
+#link3 {
+position:right;
+color:blue;
+background-color: aqua;
+}
+.parent {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.div1 { grid-area: 1 / 1 / 4 / 4; }
+
+header {
+    background-color :#003058;
+    color :#FFFFFF;
+    font :georgia;
+}
+#body {
+    background-color: deepskyblue;
+}
+#li {
+    font-family: 'Times New Roman', Times, serif;
+}
+#poolpicture {
+    /* image 1 */
+position: absolute;
+height: 636.97px;
+left: 15.63%;
+right: 13.89%;
+top: 0px;
+
+background: url(image);
+}
+.Ownerpicture {
+    /* pexels-olly-3772616 1 */
+
+    position: absolute;
+    width: 356px;
+    height: 276px;
+    left: 449px;
+    top: 1084px;
+    background: url(pexels-olly-3772616);
+
 }
