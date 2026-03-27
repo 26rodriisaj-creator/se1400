@@ -1,0 +1,116 @@
+ body {
+    background-color :#FFFFFF;
+    background-attachment:fixed;
+    font-family : arial;
+    color : #666666;
+}
+
+ header {
+    background-color :#003058;
+    color :#FFFFFF;
+    font :georgia;
+    display: row;
+    size-adjust: unset;
+}
+#nav-a {
+  color:#ffffff;
+  padding:1rem 0rem;
+  display:block;
+  text-align: center;
+  background-color:  #BA1C21;
+}
+ nav{
+    font-weight:200;
+    background-color:grey;
+    position:sticky;
+    top:0;
+    display:row 2 3;
+    display: collumn 2 3 4 5 6 7 8;
+    position:center;
+    nav-a:hover;
+}
+nav.ul {
+  margin:0;
+  display:flex;
+  flex-flow: nowrap;
+  list-style-type: none;
+  nav-a:hover;
+}
+nav.ul.il {
+  width:100%;
+  nav-a:hover
+}
+h1 {
+  margin:0;
+  padding:0;
+}
+ h2 {
+    color:#424242;
+    font:Georgia;
+}
+h3{
+    color:#003058;
+}
+ dt {
+    color:#003058;
+}
+ .ut {
+    color:#BA1C21;
+}
+ footer{
+    font-size:.70rem;
+    font:italic;
+}
+ #wrapper{
+    font-size:80%;
+    grid-auto-rows: 0px auto;
+}
+#homehero{
+    display:grid;
+}
+#studenthero{
+
+}
+#facultyhero {
+  
+}
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+    color :black;
+    background-color :transparent;
+    text-decoration :none;
+}
+a:hover {
+  color: gray;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: whitesmoke;
+  background-color: transparent;
+  text-decoration: underline;
+}
+#picture1 {
+  background-repeat :no-repeat;
+  background-attachment :fixed;
+  background-position :top;
+  background-size :300px 100px;
+  border-image-width: 2px;
+
+}
+#grid1 {
+  grid-template-columns: 8;
+
+}
+#main-img {
+  float: right;
+  padding:2rem;
+
+}
+#bluebare {
+  color:#003058
+}
