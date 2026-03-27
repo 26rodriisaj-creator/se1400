@@ -1,3 +1,4 @@
+
  body {
     background-color :#FFFFFF;
     background-attachment:fixed;
@@ -6,6 +7,13 @@
 }
 
  header {
+    background-color :#003058;
+    color :#FFFFFF;
+    font :georgia;
+    display: row;
+    size-adjust: unset;
+}
+.headder {
     background-color :#003058;
     color :#FFFFFF;
     font :georgia;
@@ -43,6 +51,8 @@ nav.ul.il {
 h1 {
   margin:0;
   padding:0;
+  background-image: none;
+  text-align: left;
 }
  h2 {
     color:#424242;
@@ -72,7 +82,7 @@ h3{
 
 }
 #facultyhero {
-  
+
 }
 a:link {
   color: black;
@@ -113,4 +123,17 @@ a:active {
 }
 #bluebare {
   color:#003058
+}
+a:link, a:visited {
+  background-color:grey;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color:white;
+  color :black;
 }
