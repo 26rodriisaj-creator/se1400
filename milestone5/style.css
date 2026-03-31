@@ -2,6 +2,11 @@
     minmax:1px;
     repeat:6;
 }
+body {
+    background-color:rgb(57, 57, 228);
+    background-color: yellow;
+    background-color: lightblue;
+}
 .parent {
 display: grid;
 grid-template-columns: repeat(5, 1fr);
@@ -9,9 +14,15 @@ grid-template-rows: repeat(5, 1fr);
 grid-column-gap: 0px;
 grid-row-gap: 0px;
 }
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
 
-.div1 { grid-area: 1 / 1 / 4 / 4; }
-
+.div1 { 
+    grid-area: 1 / 1 / 4 / 4; 
+}
 header {
     background-color :#03d1f1;
     color :#FFFFFF;
@@ -38,10 +49,12 @@ section {
 }
 body {
     background-color:white;
+    text-align:center;
 }
 nav {
     text-align: center;
-    color:silver
+    color:silver;
+    position:fixed
 }
 h2 {
     text-align: center;
@@ -62,20 +75,6 @@ li {
     top: 1084px;
     background: url(pexels-olly-3772616);
 
-}
-.image {
-    position:fixed;
-    width:700px;
-    height:280px;
-    left:400px;
-    text-align: left;
-}
-.image2 {
-    position:fixed;
-    width:700px;
-    height:200px;
-    left:400px;
-    text-align: right;
 }
 .ancor {
     text-align: right;
