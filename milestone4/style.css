@@ -2,21 +2,9 @@
     minmax:1px;
     repeat:6;
 }
-#link1 {
-position:left;
-color:blue;
-background-color:aqua;
-}
-#link2 {
-font-size: larger;
-position:middle;
-color:blue;
-background-color: aqua;
-}
-#link3 {
-position:right;
-color:blue;
-background-color: aqua;
+nav {
+    text-align:center;
+    
 }
 .parent {
 display: grid;
