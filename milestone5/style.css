@@ -2,10 +2,9 @@
     minmax:1px;
     repeat:6;
 }
-body {
-    background-color:rgb(57, 57, 228);
-    background-color: yellow;
-    background-color: lightblue;
+nav {
+    text-align:center;
+    
 }
 .parent {
 display: grid;
@@ -14,15 +13,9 @@ grid-template-rows: repeat(5, 1fr);
 grid-column-gap: 0px;
 grid-row-gap: 0px;
 }
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
-}
 
-.div1 { 
-    grid-area: 1 / 1 / 4 / 4; 
-}
+.div1 { grid-area: 1 / 1 / 4 / 4; }
+
 header {
     background-color :#03d1f1;
     color :#FFFFFF;
@@ -49,12 +42,10 @@ section {
 }
 body {
     background-color:white;
-    text-align:center;
 }
 nav {
     text-align: center;
-    color:silver;
-    position:fixed
+    color:silver
 }
 h2 {
     text-align: center;
@@ -64,6 +55,15 @@ h1 {
 }
 li {
     font-family: 'Times New Roman', Times, serif;
+}
+#poolpicture {
+    /* image 1 */
+    position: absolute;
+    height: 636.97px;
+    left: 15.63%;
+    right: 13.89%;
+    top: 0px;
+    background: url(image);
 }
 .Ownerpicture {
     /* pexels-olly-3772616 1 */
@@ -75,6 +75,24 @@ li {
     top: 1084px;
     background: url(pexels-olly-3772616);
 
+}
+picture {
+    position: fixed;
+    
+}
+.image {
+    position:fixed;
+    width:700px;
+    height:280px;
+    left:400px;
+    text-align: left;
+}
+.image2 {
+    position:fixed;
+    width:700px;
+    height:200px;
+    left:400px;
+    text-align: right;
 }
 .ancor {
     text-align: right;
