@@ -92,6 +92,7 @@ h3{
   width:10px;
   text-align: right;
   background-image:"https://utahtech.instructure.com/courses/1183945/files/184063263/download?download_frd=1";
+  background-image: fixed;
 }
 #mySubmit {
   width:10px;
