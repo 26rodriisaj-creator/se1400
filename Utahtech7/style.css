@@ -1,0 +1,211 @@
+
+ body {
+    background-color :#FFFFFF;
+    background-attachment:fixed;
+    font-family : arial;
+    color : #666666;
+    font-size: 1rem;
+    padding: 10px;
+    background: #fafafa;
+    border:0;
+}
+
+ header {
+    background-color :#003058;
+    color :#FFFFFF;
+    font :georgia;
+    display: row;
+    size-adjust: unset;
+}
+.headder {
+    background-color :#003058;
+    color :#FFFFFF;
+    font :georgia;
+    display: row;
+    size-adjust: unset;
+}
+#nav-a {
+  color:#ffffff;
+  padding:1rem 0rem;
+  display:block;
+  text-align: center;
+  background-color:  #BA1C21;
+}
+ nav{
+    font-weight:200;
+    background-color:grey;
+    position:sticky;
+    top:0;
+    display:row 2 3;
+    display: collumn 2 3 4 5 6 7 8;
+    position:center;
+    nav-a:hover;
+}
+nav.ul {
+  margin:0;
+  display:flex;
+  flex-flow: nowrap;
+  list-style-type: none;
+  nav-a:hover;
+}
+nav.ul.il {
+  width:100%;
+  nav-a:hover
+}
+h1 {
+  margin:0;
+  padding:0;
+  background-image: none;
+  text-align: left;
+}
+ h2 {
+    color:#424242;
+    font:Georgia;
+}
+h3{
+    color:#003058;
+}
+ dt {
+    color:#003058;
+}
+ .ut {
+    color:#BA1C21;
+}
+ footer{
+    font-size:.70rem;
+    font:italic;
+}
+ #wrapper{
+    font-size:80%;
+    grid-auto-rows: 0px auto;
+}
+#homehero{
+    display:grid;
+}
+#studenthero{
+
+}
+#facultyhero {
+
+}
+#alumnihero {
+  width:10px;
+  text-align: right;
+  background-image:"https://utahtech.instructure.com/courses/1183945/files/184063263/download?download_frd=1";
+  background-image: fixed;
+}
+#mySubmit {
+  width:10px;
+  text-align: right;
+}
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+    color :black;
+    background-color :transparent;
+    text-decoration :none;
+}
+a:hover {
+  color: gray;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: whitesmoke;
+  background-color: transparent;
+  text-decoration: underline;
+}
+#picture1 {
+  background-repeat :no-repeat;
+  background-attachment :fixed;
+  background-position :top;
+  background-size :250px 50px;
+  border-image-width: 2px;
+
+}
+#grid1 {
+  grid-template-columns: 8;
+
+}
+#main-img {
+  float: right;
+  padding:2rem;
+
+}
+#bluebare {
+  color:#003058
+}
+a:link, a:visited {
+  background-color:grey;
+  color: white;
+  padding: 14px 25px;
+  text-align:wrap;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color:white;
+  color :black;
+}
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="date"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  filter: invert(0.5); 
+}
+
+input[type="date"]::-webkit-datetime-edit-fields-wrapper {
+  background-color: #f9f9f9;
+}
+label.required:before {
+  content: "* ";
+  color: red;
+  font-weight: bold;
+}
+input:required, textarea:required {
+  border-left: 3px solid #ff0000;
+}
+
+input:invalid {
+  box-shadow: none; 
+}
+body {
+  text-align: center;
+}
+table {
+  width: 100%;
+  border-collapse: collapse; 
+  font-family: Arial, sans-serif;
+}
+
+th, td {
+  padding: 12px;          
+  border: 1px solid #424242;  
+  text-align: center;  
+}
+
+th {
+  background-color: #4CAF50; 
+  color: white;
+  text-align: center;
+}
+
+.text {
+  font-weight: bold;
+  text-align: left;  
+  background-color: #f9f9f9; 
+}
