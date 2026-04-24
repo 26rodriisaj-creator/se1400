@@ -16,13 +16,7 @@
     font :georgia;
     display: row;
     size-adjust: unset;
-}
-.headder {
-    background-color :#003058;
-    color :#FFFFFF;
-    font :georgia;
-    display: row;
-    size-adjust: unset;
+    background: image-set(sticky);
 }
 #nav-a {
   color:#ffffff;
@@ -78,15 +72,6 @@ h3{
  #wrapper{
     font-size:80%;
     grid-auto-rows: 0px auto;
-}
-#homehero{
-    display:grid;
-}
-#studenthero{
-
-}
-#facultyhero {
-
 }
 #alumnihero {
   width:10px;
