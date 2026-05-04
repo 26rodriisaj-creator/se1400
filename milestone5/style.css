@@ -71,24 +71,7 @@ li {
     background: url(pexels-olly-3772616);
 
 }
-picture {
-    position: fixed;
-    
-}
-.image {
-    position:fixed;
-    width:700px;
-    height:280px;
-    left:400px;
-    text-align: left;
-}
-.image2 {
-    position:fixed;
-    width:700px;
-    height:200px;
-    left:400px;
-    text-align: right;
-}
+
 .ancor {
     text-align: right;
 }
@@ -118,4 +101,15 @@ nav.ul {
   flex-flow: nowrap;
   list-style-type: none;
   nav-a:hover;
+}
+.container {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.container div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 24px;
 }

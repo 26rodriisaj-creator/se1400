@@ -103,25 +103,11 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
-#picture1 {
-  background-repeat :no-repeat;
-  background-attachment :fixed;
-  background-position :top;
-  background-size :250px 50px;
-  border-image-width: 2px;
 
-}
-#grid1 {
-  grid-template-columns: 8;
-
-}
 #main-img {
   float: right;
   padding:2rem;
 
-}
-#bluebare {
-  color:#003058
 }
 a:link, a:visited {
   background-color:grey;
@@ -131,6 +117,7 @@ a:link, a:visited {
   text-decoration: none;
   display: inline-block;
 }
+<!-- forms-->
 
 a:hover, a:active {
   background-color:white;
